@@ -1,0 +1,857 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "מיכל",
+      "lastName": "בנגייב",
+      "email": "michal@gmail.com",
+      "password": "215738262*",
+      "role": "admin",
+      "createdAt": "2026-01-01T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "firstName": "נועה",
+      "lastName": "לוי",
+      "email": "noa@gmail.com",
+      "password": "4684515*/*/*",
+      "role": "user",
+      "createdAt": "2026-01-05T14:20:00Z"
+    },
+    {
+      "id": "3",
+      "firstName": "דוד",
+      "lastName": "כהן",
+      "email": "david@gmail.com",
+      "password": "hashed_password",
+      "role": "user",
+      "createdAt": "2026-01-10T09:30:00Z"
+    },
+    {
+      "id": "4",
+      "firstName": "שרה",
+      "lastName": "אברהם",
+      "email": "sarah@gmail.com",
+      "password": "hashed_password",
+      "role": "user",
+      "createdAt": "2026-01-15T16:45:00Z"
+    },
+    {
+      "id": "5",
+      "firstName": "יוסי",
+      "lastName": "מזרחי",
+      "email": "yossi@gmail.com",
+      "password": "hashed_password",
+      "role": "user",
+      "createdAt": "2026-01-20T11:15:00Z"
+    },
+    {
+      "id": "6",
+      "firstName": "רחל",
+      "lastName": "שמעון",
+      "email": "rachel@gmail.com",
+      "password": "hashed_password",
+      "role": "user",
+      "createdAt": "2026-01-25T13:20:00Z"
+    },
+    {
+      "id": "d80204af-3a29-4e99-966e-d2025f1be95b",
+      "firstName": "michal",
+      "lastName": "ben",
+      "email": "michal@gmail.com",
+      "password": "456123",
+      "role": "user",
+      "createdAt": "2026-02-02T18:32:30.444Z"
+    },
+    {
+      "id": "8653ac72-9bce-46e7-9b77-8339c4c657f7",
+      "firstName": "michal",
+      "lastName": "ben",
+      "email": "michal@gmail.com",
+      "password": "456123",
+      "role": "user",
+      "createdAt": "2026-02-02T18:33:06.747Z"
+    },
+    {
+      "id": "cae2e33f-48cd-4431-b325-84d2334d2af9",
+      "firstName": "מיכל",
+      "lastName": "ברונר",
+      "email": "nofa@gmail.com",
+      "password": "4684515*/*/*",
+      "role": "user",
+      "createdAt": "2026-02-14T22:18:58.998Z"
+    },
+    {
+      "id": "2b443c58-0c8f-442b-ad24-348f94e74397",
+      "firstName": "ccc",
+      "lastName": "ccc",
+      "email": "michcal@gmail.com",
+      "password": "215738262*",
+      "role": "user",
+      "createdAt": "2026-02-16T20:06:17.028Z"
+    }
+  ],
+  "Categories": [
+    {
+      "id": "1",
+      "imageUrl": "images/cakes/Lime-1_cake.jpg",
+      "name": "עוגות"
+    },
+    {
+      "id": "2",
+      "imageUrl": "images/decorated_cakes/strawberry_vanilla.jpg",
+      "name": "עוגות מעוצבות"
+    },
+    {
+      "id": "3",
+      "imageUrl": "images/cookies/Exploding_chocolate.jpg",
+      "name": "עוגיות"
+    },
+    {
+      "id": "4",
+      "imageUrl": "images/desserts/personal_cherry_cake.jpg",
+      "name": "קינוחים"
+    },
+    {
+      "id": "5",
+      "imageUrl": "https://adipatifur.co.il/wp-content/uploads/2020/09/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA-%D7%9C%D7%90%D7%AA%D7%A8-%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%94-%D7%A8%D7%90%D7%A9%D7%99%D7%AA-600-%D7%A2%D7%9C-3503.jpg",
+      "name": "כל המוצרים"
+    }
+  ],
+  "products": [
+    {
+      "id": "101",
+      "name": "עוגת קרמל בלגי עשיר",
+      "description": "עוגת קרמל חלומית המבוססת על שכבות רכות של טורט וניל, במילוי קרם קרמל בלגי עמוק ועשיר, בציפוי רוטב קרמל חם ונגיעות מלח ים עדין. כל ביס נמס בפה ומשאיר אחריו טעם ממכר שלא שוכחים. מושלמת לאירוח, לימי הולדת ולרגעים מתוקים במיוחד.",
+      "price": 180,
+      "category": "עוגות",
+      "imageUrl": "/images/cakes/caramele_cake.jpg",
+      "stock": 20,
+      "rating": 4.8,
+      "reviewsCount": 3,
+      "createdAt": "2026-01-05T10:30:00Z"
+    },
+    {
+      "id": "102",
+      "name": "פס עוגת דובדבנים חגיגית",
+      "description": "פס עוגה מרהיב עם שכבת בסיס וניל רכה, קרם גבינה קטיפתי ודובדבנים עסיסיים בבישול איטי. שילוב מדויק בין מתיקות לחמיצות עדינה שיוצר קינוח מרענן ומרשים במיוחד. מושלם להגשה קרה לצד קפה או תה.",
+      "price": 140,
+      "category": "עוגות",
+      "imageUrl": "/images/cakes/cherry_cake.jpg",
+      "stock": 18,
+      "rating": 4.7,
+      "reviewsCount": 2,
+      "createdAt": "2026-01-06T09:15:00Z"
+    },
+    {
+      "id": "103",
+      "name": "עוגת לימון עם מרנג איטלקי",
+      "description": "עוגת לימון רכה ואוורירית בשילוב קרם לימון חמצמץ ומרענן, מעליה שכבת מרנג איטלקי צרוב קלות למראה מושלם וטעם מאוזן. עוגה אלגנטית עם ניחוח של פטיסרי צרפתי — קלה, רעננה וממכרת.",
+      "price": 165,
+      "category": "עוגות",
+      "imageUrl": "/images/cakes/lemone_cake.jpg",
+      "stock": 15,
+      "rating": 4.9,
+      "reviewsCount": 3,
+      "createdAt": "2026-01-07T11:00:00Z"
+    },
+    {
+      "id": "104",
+      "name": "עוגת שוקולד שכבות פרימיום",
+      "description": "עוגת שוקולד עשירה במיוחד עם שכבות נדיבות של טורט שוקולד כהה, קרם שוקולד קטיפתי וציפוי גאנש מבריק. עוגה עוצמתית לאוהבי שוקולד אמיתיים — עמוקה, מפנקת ומרשימה בכל פריסה.",
+      "price": 190,
+      "category": "עוגות",
+      "imageUrl": "/images/cakes/Chocolate-1_cake.jpg",
+      "stock": 22,
+      "rating": 5,
+      "reviewsCount": 2,
+      "createdAt": "2026-01-08T13:45:00Z"
+    },
+    {
+      "id": "105",
+      "name": "עוגת לימון בקומות חגיגית",
+      "description": "עוגת לימון מרשימה בקומות, עם שכבות אווריריות של וניל ולימון, קרם לימון עדין וציפוי לבן חלק. עוגה מושלמת לאירועים, ימי הולדת וחגיגות מיוחדות — משלבת מראה אלגנטי עם טעם רענן ונקי.",
+      "price": 260,
+      "category": "עוגות",
+      "imageUrl": "/images/cakes/Lime-1_cake.jpg",
+      "stock": 10,
+      "rating": 4.6,
+      "reviewsCount": 1,
+      "createdAt": "2026-01-09T10:00:00Z"
+    },
+    {
+      "id": "106",
+      "name": "עוגת פררו רושה יוקרתית",
+      "description": "עוגת פררו רושה עשירה במיוחד עם שכבות שוקולד, קרם נוגט קטיפתי, אגוזי לוז קלויים וציפוי שוקולד מבריק. שילוב מושלם בין פריכות לרכות בטעם שמרגיש כמו קינוח של מסעדת שף.",
+      "price": 220,
+      "category": "עוגות",
+      "imageUrl": "/images/cakes/ferrero.jpg",
+      "stock": 14,
+      "rating": 4.9,
+      "reviewsCount": 2,
+      "createdAt": "2026-01-10T12:20:00Z"
+    },
+    {
+      "id": "107",
+      "name": "פס עוגה חלבית וניל-שמנת",
+      "description": "פס עוגה עדין ומלטף עם בסיס וניל רך, קרם שמנת חלבית עשירה וציפוי לבן חלק. עוגה קלאסית שמתאימה לכולם — קלילה, אלגנטית ומושלמת לשולחן שבת או לאירוח חלבי.",
+      "price": 130,
+      "category": "עוגות",
+      "imageUrl": "/images/cakes/milky_slice.jpg",
+      "stock": 25,
+      "rating": 4.5,
+      "reviewsCount": 2,
+      "createdAt": "2026-01-11T09:00:00Z"
+    },
+    {
+      "id": "201",
+      "name": "עוגת יום הולדת מעוצבת קצפות תות־וניל",
+      "description": "עוגת יום הולדת חגיגית במיוחד עם שכבות וניל רכות, מילוי קרם וניל עדין וקצפות תות טריות בצבעים מרהיבים. שילוב מושלם בין מראה מרשים לטעם עדין ומענג שמקפיץ כל חגיגה לרמה אחרת.",
+      "price": 240,
+      "category": "עוגות מעוצבות",
+      "imageUrl": "/images/decorated_cakes/strawberry_vanilla.jpg",
+      "stock": 10,
+      "rating": 4.9,
+      "reviewsCount": 17,
+      "createdAt": "2026-01-12T10:00:00Z"
+    },
+    {
+      "id": "202",
+      "name": "עוגת יום הולדת עם סוכריות צבעוניות",
+      "description": "עוגת וניל גבוהה ושמחה בציפוי קרם לבן עשיר ומבול סוכריות צבעוניות. עוגה שמכניסה צבע, חיוך ואווירת מסיבה מהרגע הראשון — אהובה במיוחד על ילדים (וגם על מבוגרים שלא מודים).",
+      "price": 220,
+      "category": "עוגות מעוצבות",
+      "imageUrl": "/images/decorated_cakes/sprinkles.jpg",
+      "stock": 14,
+      "rating": 4.7,
+      "reviewsCount": 11,
+      "createdAt": "2026-01-12T11:00:00Z"
+    },
+    {
+      "id": "203",
+      "name": "עוגה אישית שוקולד מושחתת",
+      "description": "עוגת שוקולד אישית ועשירה במיוחד עם שכבות שוקולד רכות, קרם שוקולד עמוק, טפטופי גאנש ותוספות שוקולד מעל. קינוח אינטנסיבי לאוהבי מתוק אמיתי — קטן בגודל, ענק בטעם.",
+      "price": 95,
+      "category": "עוגות מעוצבות",
+      "imageUrl": "/images/decorated_cakes/chocolate_personal.jpg",
+      "stock": 30,
+      "rating": 5,
+      "reviewsCount": 22,
+      "createdAt": "2026-01-13T09:30:00Z"
+    },
+    {
+      "id": "205",
+      "name": "עוגה אישית אדומה בטעם דובדבן",
+      "description": "עוגה אישית בצבע אדום עמוק עם שכבות רכות בטעם דובדבן, קרם עדין וציפוי מבריק ומרשים. שילוב מושלם בין מראה דרמטי לטעם פירותי מתקתק.",
+      "price": 110,
+      "category": "עוגות מעוצבות",
+      "imageUrl": "/images/decorated_cakes/red_cherry.jpg",
+      "stock": 20,
+      "rating": 4.6,
+      "reviewsCount": 7,
+      "createdAt": "2026-01-14T10:15:00Z"
+    },
+    {
+      "id": "301",
+      "name": "עוגיות אלפא-חורס",
+      "description": "עוגיות דרום־אמריקאיות רכות במילוי ריבת חלב איכותית ובציפוי קוקוס עדין. נמסות בפה ומעניקות חוויית מתיקות מושלמת עם כל ביס.",
+      "price": 65,
+      "category": "עוגיות",
+      "imageUrl": "/images/cookies/alfajores.jpg",
+      "stock": 40,
+      "rating": 4.9,
+      "reviewsCount": 19,
+      "createdAt": "2026-01-15T09:00:00Z"
+    },
+    {
+      "id": "302",
+      "name": "עוגיות בראוניז שוקולד",
+      "description": "עוגיות בראוניז רכות מבפנים עם קראסט עדין מבחוץ, עשירות בשוקולד איכותי ובטעם עמוק במיוחד.",
+      "price": 60,
+      "category": "עוגיות",
+      "imageUrl": "/images/cookies/brownie.jpg",
+      "stock": 35,
+      "rating": 4.8,
+      "reviewsCount": 14,
+      "createdAt": "2026-01-15T10:30:00Z"
+    },
+    {
+      "id": "303",
+      "name": "עוגיות חמאה קלאסיות",
+      "description": "עוגיות חמאה פריכות ועדינות עם ניחוח וניל. קלאסיקה נצחית שמתאימה לצד כל כוס קפה או תה.",
+      "price": 50,
+      "category": "עוגיות",
+      "imageUrl": "/images/cookies/butter.jpg",
+      "stock": 50,
+      "rating": 4.6,
+      "reviewsCount": 9,
+      "createdAt": "2026-01-15T11:15:00Z"
+    },
+    {
+      "id": "304",
+      "name": "עוגיות שוקולד צ׳יפס",
+      "description": "עוגיות זהובות עם שפע שוקולד צ׳יפס איכותי. פריכות מבחוץ ורכות מבפנים — אהובות על כולם.",
+      "price": 55,
+      "category": "עוגיות",
+      "imageUrl": "/images/cookies/chocochips.jpg",
+      "stock": 45,
+      "rating": 4.7,
+      "reviewsCount": 13,
+      "createdAt": "2026-01-16T09:00:00Z"
+    },
+    {
+      "id": "305",
+      "name": "KING_DAVID ",
+      "description": "עוגיות מיוחדות במילוי תמרים ואגוזים בסגנון מסורתי, עם טעם עמוק ומרקם עשיר.",
+      "price": 70,
+      "category": "עוגיות",
+      "imageUrl": "/images/cookies/KING_DAVID.jpg",
+      "stock": 25,
+      "rating": 4.5,
+      "reviewsCount": 6,
+      "createdAt": "2026-01-16T10:00:00Z"
+    },
+    {
+      "id": "306",
+      "name": "עוגיות פלמי",
+      "description": "עוגיות בצק עלים פריכות בציפוי סוכר מקורמל, קלילות וממכרות במיוחד.",
+      "price": 45,
+      "category": "עוגיות",
+      "imageUrl": "/images/cookies/palmiers.jpg",
+      "stock": 60,
+      "rating": 4.4,
+      "reviewsCount": 5,
+      "createdAt": "2026-01-16T11:00:00Z"
+    },
+    {
+      "id": "307",
+      "name": "עוגיות לוטוס",
+      "description": "עוגיות רכות ועשירות בממרח לוטוס עם ניחוח קרמלי עמוק וטעם שממכר מהביס הראשון.",
+      "price": 75,
+      "category": "עוגיות",
+      "imageUrl": "/images/cookies/lotus.jpg",
+      "stock": 30,
+      "rating": 5,
+      "reviewsCount": 20,
+      "createdAt": "2026-01-17T09:30:00Z"
+    },
+    {
+      "id": "401",
+      "name": "שייק תותים טבעי",
+      "description": "שייק תותים קר ומרענן מתותים טריים, חלב איכותי ונגיעה של וניל. מושלם לקיץ.",
+      "price": 32,
+      "category": "קינוחים",
+      "imageUrl": "/images/desserts/strawberry_shake.jpg",
+      "stock": 100,
+      "rating": 4.7,
+      "reviewsCount": 15,
+      "createdAt": "2026-01-18T10:00:00Z"
+    },
+    {
+      "id": "402",
+      "name": "מילקשייק שוקולד",
+      "description": "מילקשייק שוקולד סמיך ועשיר עם גלידת שוקולד איכותית וקצפת מעל.",
+      "price": 35,
+      "category": "קינוחים",
+      "imageUrl": "/images/desserts/chocolate_milkshake.jpg",
+      "stock": 100,
+      "rating": 4.9,
+      "reviewsCount": 18,
+      "createdAt": "2026-01-18T11:00:00Z"
+    },
+    {
+      "id": "403",
+      "name": "קרמבו קלאסי",
+      "description": "ביסקוויט פריך עם קצפת וניל וציפוי שוקולד — נוסטלגיה מתוקה שאי אפשר לעמוד בפניה.",
+      "price": 12,
+      "category": "קינוחים",
+      "imageUrl": "/images/desserts/krembo.jpg",
+      "stock": 80,
+      "rating": 4.8,
+      "reviewsCount": 22,
+      "createdAt": "2026-01-18T12:00:00Z"
+    },
+    {
+      "id": "404",
+      "name": "שייק קפה קר",
+      "description": "שייק קפה קרמי עם אספרסו איכותי, חלב וקרח — שילוב מושלם של מתוק ואנרגיה.",
+      "price": 34,
+      "category": "קינוחים",
+      "imageUrl": "/images/desserts/coffee_shake.jpg",
+      "stock": 90,
+      "rating": 4.6,
+      "reviewsCount": 10,
+      "createdAt": "2026-01-18T13:00:00Z"
+    },
+    {
+      "id": "405",
+      "name": "קוביות שוקולד פרימיום",
+      "description": "קוביות שוקולד איכותי במבחר טעמים — מריר, חלב ולבן. מושלם ליד הקפה.",
+      "price": 28,
+      "category": "קינוחים",
+      "imageUrl": "/images/desserts/chocolate_cubes.jpg",
+      "stock": 120,
+      "rating": 4.5,
+      "reviewsCount": 8,
+      "createdAt": "2026-01-18T14:00:00Z"
+    },
+    {
+      "id": "406",
+      "name": "משקה וניל קר",
+      "description": "משקה וניל מתקתק ועדין, קרמי ומרגיע — קינוח נוזלי מושלם.",
+      "price": 30,
+      "category": "קינוחים",
+      "imageUrl": "/images/desserts/vanilla_drink.jpg",
+      "stock": 100,
+      "rating": 4.4,
+      "reviewsCount": 6,
+      "createdAt": "2026-01-18T15:00:00Z"
+    },
+    {
+      "id": "407",
+      "name": "עוגת דובדבן אישית מפנקת",
+      "description": "עוגת דובדבן אישית ורכה במיוחד, בשילוב שכבות אווריריות ודובדבנים עסיסיים שמתפוצצים בטעם בכל ביס. קינוח קטן עם נוכחות גדולה — מושלם לפינוק מתוק באמצע היום.",
+      "price": 32,
+      "category": "קינוחים",
+      "imageUrl": "/images/desserts/personal_cherry_cake.jpg",
+      "stock": 60,
+      "rating": 4.7,
+      "reviewsCount": 11,
+      "createdAt": "2026-01-18T18:30:00Z"
+    },
+    {
+      "id": "7d17fcc0-179e-4a12-9b07-0f22e312419a",
+      "name": "עוגת שוקולד",
+      "description": "עוגת שוקולד יום הולדת מיוחדת",
+      "price": 150,
+      "category": "עוגות",
+      "imageUrl": "https://michalbakescakes.com/wp-content/uploads/2025/11/Cakee-1024x747.jpeg",
+      "stock": 3,
+      "reviewsCount": 0,
+      "createdAt": "2026-02-11T11:06:13.993Z"
+    },
+    {
+      "id": "086872a0-d330-466b-9d15-da3ed5c7d29e",
+      "name": "עוגיות אמסטרדם השחר",
+      "description": "קבלו את הגרסה המשודרגת לעוגיות אמסטרדם הקלאסיות: עוגיות פריכות מבחוץ ורכות מבפנים, במילוי נוזלי ומפנק של ממרח השחר.",
+      "price": 40,
+      "category": "עוגיות",
+      "imageUrl": "https://www.10dakot.co.il/wp-content/uploads/2024/12/%E2%80%8F%E2%80%8FDSC_0138-%D7%A2%D7%95%D7%AA%D7%A7.jpg",
+      "stock": 2,
+      "reviewsCount": 0,
+      "createdAt": "2026-02-11T11:08:43.895Z"
+    },
+    {
+      "id": "bb974490-1e48-4a4d-a95d-be9365150909",
+      "name": "עד חצות עוגיות שוקולד צ׳יפס",
+      "description": "עוגיות שלא תפסיקו לאכול....",
+      "price": 50,
+      "category": "עוגיות",
+      "imageUrl": "https://static.wixstatic.com/media/535eea_e00ee42c5f5c458a8b23d40e07e02e3c~mv2.jpg/v1/fill/w_740,h_1316,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/535eea_e00ee42c5f5c458a8b23d40e07e02e3c~mv2.jpg",
+      "stock": 5,
+      "reviewsCount": 0,
+      "createdAt": "2026-02-11T23:19:46.195Z"
+    },
+    {
+      "id": "9510e9e2-5b96-4eab-a1f8-37c06202a36b",
+      "name": "עוגיות שוקולד צ'יפס במילוי עוגת גבינה",
+      "description": "עוגיות שוקולד צ'יפס קלאסיות נימוחות עם טוויסט משוגע של מילוי עוגת גבינה המבוסס על גבינת כנען של תנובה ושוקולד לבן",
+      "price": 60,
+      "category": "עוגיות",
+      "imageUrl": "https://chef-lavan.co.il/wp-content/uploads/2023/06/%D7%A9%D7%95%D7%A7%D7%95%D7%A6%D7%99%D7%A4%D7%A1-%D7%A2%D7%9D-%D7%9B%D7%A0%D7%A2%D7%9F-%D7%A9%D7%9C-%D7%AA%D7%95%D7%9E%D7%A8-%D7%90%D7%95%D7%9E%D7%A0%D7%A1%D7%A7%D7%99-%D7%9E%D7%95%D7%AA%D7%90%D7%9D-%D7%9C%D7%90%D7%AA%D7%A8-%D7%94%D7%A9%D7%A3-%D7%94%D7%9C%D7%91%D7%9F.jpg",
+      "stock": 10,
+      "createdAt": "2026-02-12T11:31:53.695Z"
+    },
+    {
+      "id": "33c8b846-89d5-41eb-970b-abf789a8b101",
+      "name": "עוגיות שוקולד צ'יפס",
+      "description": "העוגיות הקלאסיות שגם ילדים וגם מבוגרים הכי אוהבים, גרסה קלה להכנה, ריחנית ומושלמת. מומלץ להכין מהעוגיות סנדוויץ' גלידה לקבלת קוקילדה נהדרת! תמיד יש לנו מקום לעוגיות שוקולד צ'יפס! ",
+      "price": 40,
+      "category": "עוגיות",
+      "imageUrl": "https://chef-lavan.co.il/wp-content/uploads/2022/07/%D7%A2%D7%95%D7%92%D7%99%D7%95%D7%AA-%D7%A9%D7%95%D7%A7%D7%95%D7%9C%D7%93-%D7%A6%D7%99%D7%A4%D7%A1.jpg",
+      "stock": 1,
+      "createdAt": "2026-02-12T11:48:08.763Z"
+    },
+    {
+      "id": "5756fd49-d032-4652-868e-5411fa4bd547",
+      "name": "עוגת רד וולווט",
+      "description": "חגיגה של שכבות וצבעים לפניכם קינוח רד ולווט (Red Velvet) מרהיב, הבנוי כסימפוניה של ניגודים. העוגה מעוצבת בסגנון  (Naked Cake), המאפשר להציג לראווה את הדיוק והיופי של השכבות הפנימיות.",
+      "price": 250,
+      "category": "עוגות מעוצבות",
+      "imageUrl": "https://cake-lab.org/wp-content/uploads/2023/01/Red-velvet-cake-9.jpg",
+      "stock": 3,
+      "createdAt": "2026-02-16T16:37:56.489Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1001",
+      "productId": 101,
+      "userID": "3",
+      "productName": "עוגת קרמל בלגי עשיר",
+      "rating": 5,
+      "comment": "טעימה בצורה מטורפת, כל קרמל נמס בפה!",
+      "createdAt": "2026-01-06T12:00:00Z"
+    },
+    {
+      "id": "1004",
+      "productId": 102,
+      "userID": "4",
+      "productName": "פס עוגת דובדבנים חגיגית",
+      "rating": 4,
+      "comment": "יפה ומושקעת, אבל הייתי מוסיפה עוד שכבת גבינה.",
+      "createdAt": "2026-01-09T11:30:00Z"
+    },
+    {
+      "id": "1003",
+      "productId": 102,
+      "userID": "3",
+      "productName": "פס עוגת דובדבנים חגיגית",
+      "rating": 5,
+      "comment": "שילוב מושלם בין חמיצות ומתיקות, עוגה מרעננת ומרשימה.",
+      "createdAt": "2026-01-08T14:00:00Z"
+    },
+    {
+      "id": "1004",
+      "productId": 102,
+      "userID": "2",
+      "productName": "פס עוגת דובדבנים חגיגית",
+      "rating": 4,
+      "comment": "העוגה יפה מאוד, הייתי מוסיף עוד שכבת גבינה קטנה.",
+      "createdAt": "2026-01-09T11:30:00Z"
+    },
+    {
+      "id": "1006",
+      "productId": 103,
+      "userID": "5",
+      "productName": "עוגת לימון עם מרנג איטלקי",
+      "rating": 5,
+      "comment": "טעימה ורעננה, שילוב מושלם של לימון ומרנג.",
+      "createdAt": "2026-01-11T09:45:00Z"
+    },
+    {
+      "id": "1009",
+      "productId": 104,
+      "userID": "4",
+      "productName": "עוגת שוקולד שכבות פרימיום",
+      "rating": 5,
+      "comment": "שוקולד בכל ביס, פשוט פינוק אמיתי!",
+      "createdAt": "2026-01-09T16:00:00Z"
+    },
+    {
+      "id": "1011",
+      "productId": 106,
+      "userID": "3",
+      "productName": "עוגת פררו רושה יוקרתית",
+      "rating": 5,
+      "comment": "שילוב מושלם של פריכות ורכות, ממש כמו מסעדת שף.",
+      "createdAt": "2026-01-11T13:20:00Z"
+    },
+    {
+      "id": "1012",
+      "productId": 107,
+      "userID": "5",
+      "productName": "פס עוגה חלבית וניל-שמנת",
+      "rating": 4,
+      "comment": "קלאסי וטעים, מתאים לכל אירוח חלבי.",
+      "createdAt": "2026-01-12T10:50:00Z"
+    },
+    {
+      "id": "1013",
+      "productId": 201,
+      "userID": "3",
+      "productName": "עוגת יום הולדת מעוצבת קצפות תות־וניל",
+      "rating": 5,
+      "comment": "מראה מרשים וטעם עדין, חגיגה אמיתית!",
+      "createdAt": "2026-01-13T14:10:00Z"
+    },
+    {
+      "id": "1014",
+      "productId": 202,
+      "userID": "6",
+      "productName": "עוגת יום הולדת עם סוכריות צבעוניות",
+      "rating": 4,
+      "comment": "כיפית וצבעונית, הילדים פשוט אוהבים.",
+      "createdAt": "2026-01-14T09:30:00Z"
+    },
+    {
+      "id": "1015",
+      "productId": 203,
+      "userID": "3",
+      "productName": "עוגה אישית שוקולד מושחתת",
+      "rating": 5,
+      "comment": "קינוח קטן בגודל, ענק בטעם — מושלם לשוקולדיסטים!",
+      "createdAt": "2026-01-15T11:00:00Z"
+    },
+    {
+      "id": "1016",
+      "productId": 301,
+      "userID": "6",
+      "productName": "עוגיות אלפא-חורס",
+      "rating": 5,
+      "comment": "רכות וקוקוס מושלם — חווית מתיקות נהדרת.",
+      "createdAt": "2026-01-16T12:30:00Z"
+    },
+    {
+      "id": "1017",
+      "productId": 302,
+      "userID": "5",
+      "productName": "עוגיות בראוניז שוקולד",
+      "rating": 4,
+      "comment": "עשירות וטעימות, הקראסט מבחוץ ממש עדין.",
+      "createdAt": "2026-01-16T14:00:00Z"
+    },
+    {
+      "id": "1018",
+      "productId": 303,
+      "userID": "4",
+      "productName": "עוגיות חמאה קלאסיות",
+      "rating": 4,
+      "comment": "פריכות ועדינות, תמיד טובות לצד קפה.",
+      "createdAt": "2026-01-17T09:45:00Z"
+    },
+    {
+      "id": "1019",
+      "productId": 304,
+      "userID": "3",
+      "productName": "עוגיות שוקולד צ׳יפס",
+      "rating": 5,
+      "comment": "שוקולד צ׳יפס מפוזר באופן מושלם, פריכות ורכות בו זמנית!",
+      "createdAt": "2026-01-17T11:20:00Z"
+    },
+    {
+      "id": "1020",
+      "productId": 305,
+      "userID": "4",
+      "productName": "KING_DAVID",
+      "rating": 4,
+      "comment": "טעימות ומסורתיות, טעם עמוק ומרקם עשיר.",
+      "createdAt": "2026-01-17T12:50:00Z"
+    },
+    {
+      "id": "1021",
+      "productId": 306,
+      "userID": "2",
+      "productName": "עוגיות פלמי",
+      "rating": 4,
+      "comment": "קלילות וממכרות, אהבתי את הציפוי הסוכר המקורמל.",
+      "createdAt": "2026-01-17T13:30:00Z"
+    },
+    {
+      "id": "1022",
+      "productId": 307,
+      "userID": "6",
+      "productName": "עוגיות לוטוס",
+      "rating": 5,
+      "comment": "טעימות מהביס הראשון, רכות ועשירות, ממש ממכרות!",
+      "createdAt": "2026-01-17T14:15:00Z"
+    },
+    {
+      "id": "1023",
+      "productId": 401,
+      "userID": "5",
+      "productName": "שייק תותים טבעי",
+      "rating": 4,
+      "comment": "מרענן וטעים, התותים טריים מאוד.",
+      "createdAt": "2026-01-17T15:00:00Z"
+    },
+    {
+      "id": "1024",
+      "productId": 402,
+      "userID": "4",
+      "productName": "מילקשייק שוקולד",
+      "rating": 5,
+      "comment": "סמיך ועשיר, מושלם לכל חובב שוקולד.",
+      "createdAt": "2026-01-17T16:10:00Z"
+    },
+    {
+      "id": "1025",
+      "productId": 403,
+      "userID": "3",
+      "productName": "קרמבו קלאסי",
+      "rating": 5,
+      "comment": "קלאסי מושלם, נוסטלגיה מתוקה בטעם שלא מתואר.",
+      "createdAt": "2026-01-17T16:50:00Z"
+    },
+    {
+      "id": "1026",
+      "productId": 404,
+      "userID": "2",
+      "productName": "שייק קפה קר",
+      "rating": 4,
+      "comment": "שילוב נהדר של קפה ומתוק, קרמי ונעים לשתייה.",
+      "createdAt": "2026-01-17T17:30:00Z"
+    },
+    {
+      "id": "1027",
+      "productId": 405,
+      "userID": "1",
+      "productName": "קוביות שוקולד פרימיום",
+      "rating": 4,
+      "comment": "מגוונות, איכותיות וטעימות ליד קפה חם.",
+      "createdAt": "2026-01-17T18:00:00Z"
+    },
+    {
+      "id": "1028",
+      "productId": 406,
+      "userID": "6",
+      "productName": "משקה וניל קר",
+      "rating": 4,
+      "comment": "קרמי ועדין, טעים מאוד ומרגיע.",
+      "createdAt": "2026-01-17T18:40:00Z"
+    },
+    {
+      "id": "1029",
+      "productId": 101,
+      "userID": "5",
+      "productName": "עוגת קרמל בלגי עשיר",
+      "rating": 5,
+      "comment": "קרמל מדהים, כל ביס פשוט מתפוצץ בטעם.",
+      "createdAt": "2026-01-19T09:00:00Z"
+    },
+    {
+      "id": "1030",
+      "productId": 102,
+      "userID": "4",
+      "productName": "פס עוגת דובדבנים חגיגית",
+      "rating": 4,
+      "comment": "שילוב מתוק וחמצמץ מושלם, אבל הייתי מוסיפה עוד קרם גבינה.",
+      "createdAt": "2026-01-19T09:30:00Z"
+    },
+    {
+      "id": "1031",
+      "productId": 103,
+      "userID": "3",
+      "productName": "עוגת לימון עם מרנג איטלקי",
+      "rating": 5,
+      "comment": "מרנג אוורירי וטעם לימון מדויק, ממש עוגת פרימיום.",
+      "createdAt": "2026-01-19T10:00:00Z"
+    },
+    {
+      "id": "1032",
+      "productId": 104,
+      "userID": "2",
+      "productName": "עוגת שוקולד שכבות פרימיום",
+      "rating": 5,
+      "comment": "שוקולד עז, שכבות מושלמות – חוויה לשוקולדים אמיתיים.",
+      "createdAt": "2026-01-19T10:40:00Z"
+    },
+    {
+      "id": "1033",
+      "productId": 105,
+      "userID": "3",
+      "productName": "עוגת לימון בקומות חגיגית",
+      "rating": 4,
+      "comment": "מרהיבה ומרעננת, מושלמת לאירועים, טעם לימון עדין.",
+      "createdAt": "2026-01-19T11:10:00Z"
+    },
+    {
+      "id": "1034",
+      "productId": 106,
+      "userID": "6",
+      "productName": "עוגת פררו רושה יוקרתית",
+      "rating": 5,
+      "comment": "שילוב מושלם של פריך ורך, אגוזים טעימים וטעם נוגט נהדר.",
+      "createdAt": "2026-01-19T11:50:00Z"
+    },
+    {
+      "id": "1035",
+      "productId": 107,
+      "userID": "5",
+      "productName": "פס עוגה חלבית וניל-שמנת",
+      "rating": 4,
+      "comment": "עדין וטעים, קרם חלק ומלטף – מתאים לארוחת בוקר מתוקה.",
+      "createdAt": "2026-01-19T12:20:00Z"
+    },
+    {
+      "id": "1036",
+      "productId": 201,
+      "userID": "4",
+      "productName": "עוגת יום הולדת מעוצבת קצפות תות־וניל",
+      "rating": 5,
+      "comment": "מראה מהמם, טעם מתקתק – הילדים התלהבו מאוד!",
+      "createdAt": "2026-01-19T12:50:00Z"
+    },
+    {
+      "id": "1037",
+      "productId": 202,
+      "userID": "3",
+      "productName": "עוגת יום הולדת עם סוכריות צבעוניות",
+      "rating": 4,
+      "comment": "כיפית ומלאת צבע, שילוב טעמים נהדר עם הקרם הלבן.",
+      "createdAt": "2026-01-19T13:20:00Z"
+    },
+    {
+      "id": "1038",
+      "productId": 203,
+      "userID": "2",
+      "productName": "עוגה אישית שוקולד מושחתת",
+      "rating": 5,
+      "comment": "שוקולד מטריף! גודל אישי אך מרגיש כאילו זה עוגה ענקית.",
+      "createdAt": "2026-01-19T13:50:00Z"
+    },
+    {
+      "id": "cef6c9a1-cfc8-461e-8bf9-cb3cedce2ea6",
+      "productId": "101",
+      "userID": "2",
+      "productName": "עוגת קרמל בלגי עשיר",
+      "rating": 5,
+      "comment": "שווה כל ביס וקלוריה !!!",
+      "createdAt": "2026-02-11T22:42:23.483Z"
+    },
+    {
+      "id": "f7d286aa-696e-4339-a1d7-839c9c8d2c32",
+      "productId": "407",
+      "userID": "2",
+      "productName": "עוגת דובדבן אישית מפנקת",
+      "rating": 5,
+      "comment": "",
+      "createdAt": "2026-02-12T00:38:00.881Z"
+    },
+    {
+      "id": "c5d14e8f-cad4-4ad9-949a-52d5e5bca18c",
+      "productId": "407",
+      "userID": "2",
+      "productName": "עוגת דובדבן אישית מפנקת",
+      "rating": 3,
+      "comment": "",
+      "createdAt": "2026-02-12T00:38:06.439Z"
+    },
+    {
+      "id": "f889a362-0465-42ba-8b13-97e936fdc5a2",
+      "productId": "103",
+      "userID": "2",
+      "productName": "עוגת לימון עם מרנג איטלקי",
+      "rating": 2,
+      "comment": "",
+      "createdAt": "2026-02-12T00:38:23.430Z"
+    },
+    {
+      "id": "3a6bd95a-6b5a-4834-abac-9b31f74d99e7",
+      "productId": "bb974490-1e48-4a4d-a95d-be9365150909",
+      "userID": "2",
+      "productName": "עד חצות עוגיות שוקולד צ׳יפס",
+      "rating": 5,
+      "comment": "",
+      "createdAt": "2026-02-12T00:45:10.317Z"
+    },
+    {
+      "id": "0f4d1953-b506-4dd0-9b5d-7fc2b4f3e0e4",
+      "productId": "101",
+      "userID": "2",
+      "productName": "עוגת קרמל בלגי עשיר",
+      "rating": 5,
+      "comment": "",
+      "createdAt": "2026-02-12T00:47:05.679Z"
+    },
+    {
+      "id": "32e709d9-bdf1-47a1-848c-254699951113",
+      "productId": "401",
+      "userID": "cae2e33f-48cd-4431-b325-84d2334d2af9",
+      "productName": "שייק תותים טבעי",
+      "rating": 5,
+      "comment": "",
+      "createdAt": "2026-02-16T14:27:46.661Z"
+    }
+  ]
+}

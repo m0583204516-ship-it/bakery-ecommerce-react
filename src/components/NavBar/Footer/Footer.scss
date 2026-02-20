@@ -1,0 +1,218 @@
+/* Footer.scss - Professional Design */
+
+.footer {
+  background: linear-gradient(135deg, var(--primary-brown) 0%, var(--secondary-warm-gray) 100%);
+  color: var(--accent-warm-white);
+  margin-top: auto;
+  padding: 4.5rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  direction: rtl;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-2xl);
+  padding: var(--spacing-3xl) var(--spacing-xl);
+}
+
+.footer-section {
+  h3 {
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    color: var(--primary-gold);
+    margin-bottom: var(--spacing-lg);
+    font-weight: 600;
+  }
+
+  h4 {
+    font-family: var(--font-primary);
+    font-size: 1.2rem;
+    color: var(--accent-warm-white);
+    margin-bottom: var(--spacing-md);
+    font-weight: 500;
+    position: relative;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      right: 0;
+      width: 40px;
+      height: 2px;
+      background: var(--primary-gold);
+    }
+  }
+
+  p {
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: var(--spacing-lg);
+    font-size: 0.95rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: var(--spacing-sm);
+      
+      a {
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        transition: var(--transition-normal);
+        font-size: 0.95rem;
+        
+        &:hover {
+          color: var(--primary-gold);
+          padding-right: var(--spacing-xs);
+        }
+      }
+    }
+  }
+}
+
+.social-links {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: var(--transition-normal);
+    
+    &:hover {
+      background: var(--primary-gold);
+      transform: translateY(-3px);
+      box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+    }
+  }
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  
+  .icon {
+    font-size: 1.1rem;
+    margin-top: 2px;
+    flex-shrink: 0;
+  }
+  
+  span:last-child {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: var(--spacing-lg) var(--spacing-xl);
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  
+  p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+  }
+}
+
+.footer-links {
+  display: flex;
+  gap: var(--spacing-lg);
+  
+  a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: var(--transition-normal);
+    
+    &:hover {
+      color: var(--primary-gold);
+    }
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-xl);
+    padding: var(--spacing-2xl) var(--spacing-lg);
+  }
+  
+  .footer-bottom-content {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--spacing-sm);
+  }
+  
+  .footer-links {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+    padding: var(--spacing-xl) var(--spacing-md);
+  }
+  
+  .footer-section {
+    text-align: center;
+    
+    h3, h4 {
+      text-align: center;
+    }
+    
+    h4::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+  
+  .contact-info {
+    align-items: center;
+  }
+  
+  .contact-item {
+    justify-content: center;
+    text-align: center;
+  }
+}
