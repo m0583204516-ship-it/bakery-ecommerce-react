@@ -1,6 +1,6 @@
 
 import './App.css'
-import { Navigate, Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes, useNavigate } from 'react-router-dom'
 import HomePage from './components/HomePage/HomePage'
 import NotFound from './components/NotFound/NotFound'
 import Login from './components/Login/Login'
@@ -10,8 +10,18 @@ import ProductDetails from './components/Products/ProductDetails/ProductDetails'
 import UserDetails from './components/UserDetails/UserDetails'
 import ListUsers from './components/ListUsers/ListUsers'
 import Register from './components/Register/Register'
+import { useEffect } from 'react'
 
 function App() {
+  const navigate = useNavigate();
+  const user = JSON.parse(localStorage.getItem('user') || 'null');
+
+  useEffect(() => {
+    if (!user) {
+      navigate(`/login`);
+    }   
+  }, []);
+
  
   return (
     <div className='app'>

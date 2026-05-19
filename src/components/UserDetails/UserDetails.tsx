@@ -14,11 +14,7 @@ const UserDetails: FC<UserDetailsProps> = () => {
     const [successMessage, setSuccessMessage] = useState<string>('');
 
     let user = JSON.parse(localStorage.getItem('user') || 'null');
-    if (!user) {
-        navigate('../../login');
-        return null;
-    }
-
+  
     const EditForm = useFormik({
         initialValues: {
             firstName: user?.firstName || '',

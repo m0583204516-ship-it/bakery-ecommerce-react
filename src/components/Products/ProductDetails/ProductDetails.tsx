@@ -11,6 +11,8 @@ const ProductDetails: FC = () => {
   const { id } = useParams<{ id: string }>();
   const [product, setProduct] = useState<ProductModel | null>(null);
   const [allResponses, setAllResponses] = useState<ResponseModel[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string>('');
 
   const handleDeleteResponse = (id: string) => {
     setAllResponses(prevResponses => prevResponses.filter(r => r.id !== id));
@@ -18,9 +20,17 @@ const ProductDetails: FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
     if (!id) return;
+    
+    setLoading(true);
+    setError('');
+    
     axios.get(`http://localhost:3000/products/${id}`)
       .then(res => setProduct(res.data))
-      .catch(err => console.log('Error fetching product:', err));
+      .catch(err => {
+        console.log('Error fetching product:', err);
+        setError('שגיאה בטעינת המוצר. אנא נסה שוב מאוחר יותר.');
+      })
+      .finally(() => setLoading(false));
 
     axios.get(`http://localhost:3000/reviews?productId=${id}`)
       .then(res => setAllResponses(res.data))
@@ -37,7 +47,23 @@ const ProductDetails: FC = () => {
       setAddResponse(false);
   }
 
-  if (!product) return <div>טוען מוצר...</div>;
+  if (loading) return (
+    <div className="product-message loading">
+      <div className="spinner"></div>
+      <p>טוען מוצר...</p>
+    </div>
+  );
+
+  if (error) return (
+    <div className="product-message error">
+      <span className="error-icon">⚠️</span>
+      <h2>אופס! משהו השתבש</h2>
+      <p>{error}</p>
+      <button onClick={() => window.location.reload()}>נסה שוב</button>
+    </div>
+  );
+
+  if (!product) return null;
 
   return (
     <div className="ProductPage">

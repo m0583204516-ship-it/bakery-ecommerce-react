@@ -89,6 +89,24 @@
       "password": "215738262*",
       "role": "user",
       "createdAt": "2026-02-16T20:06:17.028Z"
+    },
+    {
+      "id": "c3d631d2-443d-4ad1-aeea-df7d9bb8aa83",
+      "firstName": "מיכלי",
+      "lastName": "שור",
+      "email": "m@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "createdAt": "2026-02-20T07:12:49.347Z"
+    },
+    {
+      "id": "542846f4-4611-438e-9e57-9a67aa9fe5d6",
+      "firstName": "shany",
+      "lastName": "shemesh",
+      "email": "shemesh@gmail.com",
+      "password": "Shemesh@1",
+      "role": "user",
+      "createdAt": "2026-02-20T07:15:21.861Z"
     }
   ],
   "Categories": [
@@ -481,6 +499,16 @@
       "imageUrl": "https://cake-lab.org/wp-content/uploads/2023/01/Red-velvet-cake-9.jpg",
       "stock": 3,
       "createdAt": "2026-02-16T16:37:56.489Z"
+    },
+    {
+      "id": "060d611c-9ae6-4a28-b987-ba8f7aba08e3",
+      "name": "עוגת יום הולדת",
+      "description": "יום הולדת שמח",
+      "price": 100,
+      "category": "עוגות",
+      "imageUrl": "https://workspace.google.com/intl/en-US/gmail/",
+      "stock": 23,
+      "createdAt": "2026-02-20T07:21:52.081Z"
     }
   ],
   "reviews": [
@@ -852,6 +880,15 @@
       "rating": 5,
       "comment": "",
       "createdAt": "2026-02-16T14:27:46.661Z"
+    },
+    {
+      "id": "d4b30a0a-0f7d-4554-ae7e-a03692a26a33",
+      "productId": "401",
+      "userID": "542846f4-4611-438e-9e57-9a67aa9fe5d6",
+      "productName": "שייק תותים טבעי",
+      "rating": 1,
+      "comment": "טעים",
+      "createdAt": "2026-02-20T07:18:22.607Z"
     }
   ]
 }
